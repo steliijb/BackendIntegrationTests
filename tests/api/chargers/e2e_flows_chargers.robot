@@ -11,7 +11,7 @@ ${charger_id}            61816b7397069d03e848f78d
 
 * Test Cases *
 Get The Chargers List And Check A Charger By Id
-    [Tags]  Integration
+    [Tags]  API
     ${id}    Extract An Id From All The Chargers By Position    0    
     GET Charger By Id    ${id}
     ${output_id}    Output  $._id
@@ -19,14 +19,14 @@ Get The Chargers List And Check A Charger By Id
     #[Teardown]  Output  response
 
 Get The Chargers List To Select A Charger For Delete And Check If Was Deleted
-    [Tags]  Integration
+    [Tags]  API
     ${id}    Extract An Id From All The Chargers By Position    6    
     DELETE Charger By Id    ${id}
     Check That A Charger Does Not Exist    ${id}
     #[Teardown]  Output  response        
 
 Create A New Charger And Check If Was Created
-    [Tags]  Integration
+    [Tags]  API
     POST Create Charger    ${create_charger_json}
     ${id_charger_created}    Output    $._id
     ${size}    Extract Last Charger Id
