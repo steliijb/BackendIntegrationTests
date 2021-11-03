@@ -8,8 +8,8 @@
 
 _Import both files in Postman:_
 
-[Postman Collection](https://drive.google.com/file/d/1v2locofx9t0nBdrxfHruxfOY9MQszikq/view?usp=sharing)
-[Postman Environment](https://drive.google.com/file/d/1DCIHtE8eJhIHxgNnerYt9zj2YNmMquN9/view?usp=sharing)
+* [Postman Collection](https://drive.google.com/file/d/1v2locofx9t0nBdrxfHruxfOY9MQszikq/view?usp=sharing)
+* [Postman Environment](https://drive.google.com/file/d/1DCIHtE8eJhIHxgNnerYt9zj2YNmMquN9/view?usp=sharing)
 
 ## Task 3 - Integration Testing (Robot Framework)🔩
 The project is dividid in 3 main folders:
