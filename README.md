@@ -10,7 +10,7 @@ _These instructions will guide you to be able to execute and understand the proj
 
 _What things do you need to install the software and how to install them?_
 
-```
+
 1. Install an IDE like Visual Studio Code: https://code.visualstudio.com/
 2. Install the Robot Framework extension for Visual Studio Code: "Robot Framework Language Server" (https://marketplace.visualstudio.com/items?itemName=robocorp.robotframework-lsp)
 3. Download and Install Python - https://www.python.org/
