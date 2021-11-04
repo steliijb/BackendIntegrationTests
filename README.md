@@ -12,7 +12,7 @@ _Import both files in Postman:_
 * [Postman Environment](https://drive.google.com/file/d/1DCIHtE8eJhIHxgNnerYt9zj2YNmMquN9/view?usp=sharing)
 
 ## Task 3 - Integration Testing (Robot Framework)🔩
-The project is dividid in 3 main folders:
+The project is divided in 3 main folders:
 * _conf_: contain the env file
 * _keywords_: contain the keywords files used by the tests
 * _tests_: contain the integration tests
